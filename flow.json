@@ -1,1 +1,1050 @@
-[]
+[
+    {
+        "id": "565b5376.bfe874",
+        "type": "tab",
+        "label": "Milchmaschine",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "60002445.e350fc",
+        "type": "tab",
+        "label": "Telegram UI",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "dd118bdc.d05b",
+        "type": "ui_group",
+        "name": "Fassbutter",
+        "tab": "",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "dd3b45d4.e5bf3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "d064dd45.2c9a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "dd118bdc.d05b",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e867257d.691b98",
+        "type": "ui_tab",
+        "name": "Warenkorb",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5d04c642.73b568",
+        "type": "ui_group",
+        "name": "Produkte",
+        "tab": "e867257d.691b98",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b39737d7.56af1",
+        "type": "ui_group",
+        "name": "Lager",
+        "tab": "e867257d.691b98",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "9ae68fc2.0601d8",
+        "type": "telegram bot",
+        "botname": "Feed the Cow",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "eace30fe.b1231",
+        "type": "telegram bot",
+        "botname": "HeinzBot",
+        "usernames": "Windhose",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "verboselogging": false
+    },
+    {
+        "id": "ab0c00b0.85e2b8",
+        "type": "ui_group",
+        "name": "Telegram",
+        "tab": "e867257d.691b98",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "ced9ab88.d15aa8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "5d04c642.73b568",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "8fc1fde.92e91",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "5d04c642.73b568",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "76dae35d.fc3234",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "b39737d7.56af1",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "7d9b8ee0.23827",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "b39737d7.56af1",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "5722bd69.1c5ccc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ab0c00b0.85e2b8",
+        "order": 2,
+        "width": "6",
+        "height": 1
+    },
+    {
+        "id": "499d6656.732498",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "ab0c00b0.85e2b8",
+        "order": 5,
+        "width": "6",
+        "height": 1
+    },
+    {
+        "id": "a899ea46.57ed",
+        "type": "debug",
+        "z": "565b5376.bfe874",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 970,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "63fc8788.23cd5",
+        "type": "ui_numeric",
+        "z": "565b5376.bfe874",
+        "name": "Buttermilch",
+        "label": "Buttermilch 1l",
+        "tooltip": "",
+        "group": "5d04c642.73b568",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "buttermilk",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "step": 1,
+        "x": 110,
+        "y": 520,
+        "wires": [
+            [
+                "82b17051.875438"
+            ]
+        ]
+    },
+    {
+        "id": "82b17051.875438",
+        "type": "function",
+        "z": "565b5376.bfe874",
+        "name": "Butterfass",
+        "func": "var churned_butter = flow.get('churned_butter') || {};\nvar buttermilk = flow.get('buttermilk') || {};\nvar milk = flow.get('milk') || {};\nvar total_used_churned_butter = 0;\n//var total_churned_butter;\nvar total_used_buttermilk = 0;\n//var total_buttermilk;\n\nconst CHURNED_BUTTER_YIELD = 0.045\nconst BUTTERMILK_YIELD = 0.955;\n\n\n\nif (msg.topic == \"churned_butter\") {\n    msg.payload *= 0.25; // 250g Stücke\n    churned_butter[msg.topic] = msg.payload;\n} else if (msg.topic == \"buttermilk\") {\n    buttermilk[msg.topic] = msg.payload;\n} else return null;\n\nflow.set('churned_butter', churned_butter);\nflow.set('buttermilk', buttermilk);\n\ntotal_used_churned_butter = Object.values(churned_butter).reduce((c, n) => c + n);\ntotal_used_buttermilk = Object.values(buttermilk).reduce((b, n) => b + n);\n\n\nif ((total_used_churned_butter / CHURNED_BUTTER_YIELD) > (total_used_buttermilk / BUTTERMILK_YIELD)) {\n    msg.payload = total_used_churned_butter / CHURNED_BUTTER_YIELD;\n    node.send([null, {payload: 0}, {payload: Math.round(msg.payload * BUTTERMILK_YIELD - total_used_buttermilk)}]);\n} else {\n    msg.payload = total_used_buttermilk / BUTTERMILK_YIELD;\n    node.send([null, {payload: Math.round((msg.payload * CHURNED_BUTTER_YIELD - total_used_churned_butter)*10)/10}, {payload: 0}]);\n}\n\n\nmsg.topic = 'churn';\nmilk[msg.topic] = msg.payload;\nreturn msg;",
+        "outputs": 3,
+        "noerr": 0,
+        "x": 580,
+        "y": 480,
+        "wires": [
+            [
+                "3a1344e5.978934"
+            ],
+            [
+                "6a04a7c1.a0be48"
+            ],
+            [
+                "5e6bc492.269c3c"
+            ]
+        ]
+    },
+    {
+        "id": "3a1344e5.978934",
+        "type": "function",
+        "z": "565b5376.bfe874",
+        "name": "zu Milch",
+        "func": "var milk = flow.get('milk')|| {};\n//var milk = {};\n\n\n\nmsg.payload = Object.values(milk).reduce((m, n) => m + n);\n\nmsg.payload = Math.round(msg.payload*10)/10;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 840,
+        "y": 120,
+        "wires": [
+            [
+                "65bac614.74bb28"
+            ]
+        ]
+    },
+    {
+        "id": "6a04a7c1.a0be48",
+        "type": "ui_text",
+        "z": "565b5376.bfe874",
+        "group": "b39737d7.56af1",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "Fassbutter",
+        "label": "Ungenutzte Fassbutter kg",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5e6bc492.269c3c",
+        "type": "ui_text",
+        "z": "565b5376.bfe874",
+        "group": "b39737d7.56af1",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "Buttermilch",
+        "label": "Ungenutzte Buttermilch in l",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "65bac614.74bb28",
+        "type": "ui_text",
+        "z": "565b5376.bfe874",
+        "group": "b39737d7.56af1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Milchverbrauch",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1020,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "be23cb76.76c2d8",
+        "type": "function",
+        "z": "565b5376.bfe874",
+        "name": "Zentrifuge",
+        "func": "var cream = flow.get('cream') || {};\nvar skim_milk = flow.get('skim_milk') || {};\nvar milk = flow.get('milk') || {};\nvar total_cream = 0;\nvar total_used_cream = 0;\nvar total_skim_milk = 0;\nvar total_used_skim_milk = 0;\nvar total_milk = 0;\n\nconst YIELD_CREAM = 0.11;\nconst YIELD_SKIM_MILK = 0.89;\n\ntotal_used_cream = Object.values(cream).reduce((c, n) => c + n);\ntotal_used_skim_milk = Object.values(skim_milk).reduce((c, n) => c + n);\n\nif ((total_used_cream / YIELD_CREAM * YIELD_SKIM_MILK) > total_used_skim_milk) {\n    total_cream = total_used_cream;\n    total_milk = total_cream / YIELD_CREAM;\n    total_skim_milk = total_milk - total_cream;\n} else {\n    total_skim_milk = total_used_skim_milk;\n    total_milk = total_skim_milk / YIELD_SKIM_MILK;\n    total_cream = total_milk - total_skim_milk;\n}\nnode.send([ null, { payload: total_cream - total_used_cream}, {payload: total_skim_milk - total_used_skim_milk}]);\n \n\nmsg.payload = total_milk;\nmsg.topic = \"zentrifuge\";\nmilk[msg.topic] = msg.payload;\nflow.set('milk', milk);\nreturn msg;",
+        "outputs": 3,
+        "noerr": 0,
+        "x": 620,
+        "y": 220,
+        "wires": [
+            [
+                "3a1344e5.978934"
+            ],
+            [
+                "8e2eafff.f0bcc8"
+            ],
+            [
+                "7306d805.7c959"
+            ]
+        ]
+    },
+    {
+        "id": "870037a7.7c41",
+        "type": "function",
+        "z": "565b5376.bfe874",
+        "name": "Rezept Joghurt",
+        "func": "var milk = flow.get('milk') || {};\n\nmsg.payload *= 0.5; //500g Gläser\nmilk[msg.topic] = msg.payload;\nflow.set('milk', milk);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 300,
+        "y": 180,
+        "wires": [
+            [
+                "3a1344e5.978934"
+            ]
+        ]
+    },
+    {
+        "id": "6793daf5.e0bfac",
+        "type": "function",
+        "z": "565b5376.bfe874",
+        "name": "Rezept Milch",
+        "func": "var milk = flow.get('milk') || {};\nvar skim_milk = flow.get('skim_milk') || {};\n\nif (msg.topic == \"milk\") {\n    milk[msg.topic] = msg.payload;\n} else if (msg.topic == \"low_fat_milk\") {\n    milk[msg.topic] = msg.payload * 0.375;\n    skim_milk[msg.topic] = msg.payload - milk[msg.topic];\n} else {\n    return null;\n}\n\nflow.set('milk', milk);\nflow.set('skim_milk', skim_milk);\nreturn ([msg,msg]);",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 310,
+        "y": 40,
+        "wires": [
+            [
+                "3a1344e5.978934"
+            ],
+            [
+                "be23cb76.76c2d8"
+            ]
+        ]
+    },
+    {
+        "id": "77e87953.f7071",
+        "type": "ui_numeric",
+        "z": "565b5376.bfe874",
+        "name": "Fassbutter",
+        "label": "Fassbutter 250g",
+        "tooltip": "",
+        "group": "5d04c642.73b568",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "churned_butter",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 110,
+        "y": 460,
+        "wires": [
+            [
+                "82b17051.875438"
+            ]
+        ]
+    },
+    {
+        "id": "8c67a944.3b70b",
+        "type": "function",
+        "z": "565b5376.bfe874",
+        "name": "Rezepte Sahne",
+        "func": "var cream = flow.get('cream') || {};\n\nif (msg.topic == \"cream\") {\n    msg.payload *= 0.25; // 250g VE\n    cream[msg.topic] = msg.payload;\n} else if (msg.topic == \"butter\") {\n    msg.payload *= 0.25; // 250g VE\n    msg.payload /= 0.4; // Aufwand Butterherstellung\n    cream[msg.topic] = msg.payload;\n} else {\n    return null;\n}\n\nflow.set('cream', cream);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 300,
+        "y": 280,
+        "wires": [
+            [
+                "be23cb76.76c2d8"
+            ]
+        ]
+    },
+    {
+        "id": "7306d805.7c959",
+        "type": "ui_text",
+        "z": "565b5376.bfe874",
+        "group": "b39737d7.56af1",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Magermilch",
+        "label": "Ungenutzte Magermilch in l",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "8e2eafff.f0bcc8",
+        "type": "ui_text",
+        "z": "565b5376.bfe874",
+        "group": "b39737d7.56af1",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Sahne",
+        "label": "Ungenutzte Sahne in l",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "78c65592.74ca34",
+        "type": "function",
+        "z": "565b5376.bfe874",
+        "name": "Rezept Quark",
+        "func": "var skim_milk = flow.get('skim_milk') || {};\n\nmsg.payload *= 0.5; // 500g VE\nmsg.payload /= 0.2; // 20% Ausbeute\nskim_milk[msg.topic] = msg.payload;\n\nflow.set('skim_milk', skim_milk);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 280,
+        "y": 380,
+        "wires": [
+            [
+                "be23cb76.76c2d8"
+            ]
+        ]
+    },
+    {
+        "id": "6a118d11.49c764",
+        "type": "ui_numeric",
+        "z": "565b5376.bfe874",
+        "name": "Joghurt",
+        "label": "Joghurt 500g",
+        "tooltip": "",
+        "group": "5d04c642.73b568",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "yoghurt",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "step": 1,
+        "x": 100,
+        "y": 180,
+        "wires": [
+            [
+                "870037a7.7c41"
+            ]
+        ]
+    },
+    {
+        "id": "ea34962c.0c42e8",
+        "type": "ui_numeric",
+        "z": "565b5376.bfe874",
+        "name": "Milch",
+        "label": "Milch 1l",
+        "tooltip": "",
+        "group": "5d04c642.73b568",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "milk",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "step": "1",
+        "x": 90,
+        "y": 40,
+        "wires": [
+            [
+                "6793daf5.e0bfac"
+            ]
+        ]
+    },
+    {
+        "id": "ee17adcf.e67f78",
+        "type": "ui_numeric",
+        "z": "565b5376.bfe874",
+        "name": "fettarme Milch",
+        "label": "fettarme Milch 1l",
+        "tooltip": "1,5% Fett",
+        "group": "5d04c642.73b568",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "low_fat_milk",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 120,
+        "y": 120,
+        "wires": [
+            [
+                "6793daf5.e0bfac"
+            ]
+        ]
+    },
+    {
+        "id": "c8564aa7.9b8218",
+        "type": "ui_numeric",
+        "z": "565b5376.bfe874",
+        "name": "Sahne",
+        "label": "Sahne 250ml",
+        "tooltip": "",
+        "group": "5d04c642.73b568",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "cream",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 90,
+        "y": 260,
+        "wires": [
+            [
+                "8c67a944.3b70b"
+            ]
+        ]
+    },
+    {
+        "id": "7d50e9fb.f9a858",
+        "type": "ui_numeric",
+        "z": "565b5376.bfe874",
+        "name": "Butter",
+        "label": "Butter 250g",
+        "tooltip": "",
+        "group": "5d04c642.73b568",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "butter",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 90,
+        "y": 320,
+        "wires": [
+            [
+                "8c67a944.3b70b"
+            ]
+        ]
+    },
+    {
+        "id": "723032e.3e2c7cc",
+        "type": "ui_numeric",
+        "z": "565b5376.bfe874",
+        "name": "Quark",
+        "label": "Quark 500g",
+        "tooltip": "",
+        "group": "5d04c642.73b568",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": true,
+        "topic": "quark",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "x": 90,
+        "y": 380,
+        "wires": [
+            [
+                "78c65592.74ca34"
+            ]
+        ]
+    },
+    {
+        "id": "af25fa39.24d2f",
+        "type": "telegram command",
+        "z": "60002445.e350fc",
+        "name": "",
+        "command": "/delete",
+        "bot": "9ae68fc2.0601d8",
+        "strict": false,
+        "outputs": 2,
+        "x": 90,
+        "y": 660,
+        "wires": [
+            [
+                "8829084b.d49d3"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4da78fb1.d5a218",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "show Cow",
+        "func": "msg.payload.content = \"🐄 Welcome 🐄\";\nmsg.payload.type = \"message\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 20,
+        "wires": [
+            [
+                "ff96543f.b3a17"
+            ]
+        ]
+    },
+    {
+        "id": "ff96543f.b3a17",
+        "type": "telegram sender",
+        "z": "60002445.e350fc",
+        "name": "Send cow",
+        "bot": "9ae68fc2.0601d8",
+        "outputs": 1,
+        "x": 980,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3daa3cf.f0fb48",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "User registriert?",
+        "func": "var orders = flow.get('orders') || [];\nmsg.user = msg.payload.chatId;\n\nif (orders.filter(u => u.user == msg.user).length === 0) {\n    msg.orders = orders;\n    return [msg, null];\n}\nmsg.orders = orders;\nreturn [null, msg];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 240,
+        "y": 20,
+        "wires": [
+            [
+                "4da78fb1.d5a218"
+            ],
+            [
+                "de7f1ee2.cd706"
+            ]
+        ]
+    },
+    {
+        "id": "de7f1ee2.cd706",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "welcome back",
+        "func": "msg.payload.content = \"Welcome back\";\nmsg.payload.type = \"message\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 480,
+        "y": 140,
+        "wires": [
+            [
+                "ff96543f.b3a17"
+            ]
+        ]
+    },
+    {
+        "id": "8829084b.d49d3",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "delete user",
+        "func": "var orders = flow.get('orders') || [];\nmsg.user = msg.payload.chatId;\n\norders = orders.filter(u => u.user != msg.user);\nflow.set('orders', orders);\n\nmsg.orders = orders;\nmsg.payload.content = \"Tschau, tschau!\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 400,
+        "y": 660,
+        "wires": [
+            [
+                "ff96543f.b3a17"
+            ]
+        ]
+    },
+    {
+        "id": "3a2be2c8.78f6b6",
+        "type": "telegram command",
+        "z": "60002445.e350fc",
+        "name": "",
+        "command": "/start",
+        "bot": "9ae68fc2.0601d8",
+        "strict": false,
+        "outputs": 2,
+        "x": 70,
+        "y": 20,
+        "wires": [
+            [
+                "b3daa3cf.f0fb48"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e78d6710.36a1c8",
+        "type": "telegram command",
+        "z": "60002445.e350fc",
+        "name": "",
+        "command": "/order",
+        "bot": "9ae68fc2.0601d8",
+        "strict": false,
+        "outputs": 2,
+        "x": 70,
+        "y": 260,
+        "wires": [
+            [
+                "bd0f2a94.2eac7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "107d8aef.effa55",
+        "type": "debug",
+        "z": "60002445.e350fc",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 410,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "bd0f2a94.2eac7",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "Save orders",
+        "func": "var orders = flow.get('orders') || [];\nmsg.user = msg.payload.chatId;\nvar order = msg.payload.content.trim().split(' ');\n\nif(order.length === 2) {\n    orders.push({user: msg.user, product: order[0], amount: order[1]});\n    flow.set('orders', orders);\n} else {\n    orders = orders.filter(u => u.user == msg.user);\n    orders_sum = {};\n    for(let i in orders){\n        orders_sum[i.product] += i.amount;\n    }\n    for(let i in orders_sum) {\n        msg.payload.content = i + \" \" + orders_sum[i];\n    }\n    msg.orders = orders;\n    msg.orders_sum = orders_sum;\n    return [null, msg]\n}\n\n\nmsg.orders = orders;\nmsg.payload = order[0];\nreturn [msg, null];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 230,
+        "y": 260,
+        "wires": [
+            [],
+            [
+                "107d8aef.effa55"
+            ]
+        ]
+    },
+    {
+        "id": "ba09ebe7.f9a7a8",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "spoofy",
+        "func": "msg.payload.chatId = \"001\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 220,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c97683.1358d18",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "zu Milch",
+        "func": "var milk = flow.get('milk')|| {};\n\n\n\n\nmsg.payload = Object.values(milk).reduce((m, n) => m + n);\n\nmsg.payload = Math.round(msg.payload*10)/10;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 820,
+        "y": 260,
+        "wires": [
+            [
+                "f0e3dd54.4e9b2"
+            ]
+        ]
+    },
+    {
+        "id": "f0e3dd54.4e9b2",
+        "type": "ui_text",
+        "z": "60002445.e350fc",
+        "group": "ab0c00b0.85e2b8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Milchverbrauch",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 1020,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "aa86089f.6fbae8",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "Zentrifuge",
+        "func": "var cream = flow.get('cream') || {};\nvar skim_milk = flow.get('skim_milk') || {};\nvar milk = flow.get('milk') || {};\nvar total_cream = 0;\nvar total_used_cream = 0;\nvar total_skim_milk = 0;\nvar total_used_skim_milk = 0;\nvar total_milk = 0;\n\nconst YIELD_CREAM = 0.11;\nconst YIELD_SKIM_MILK = 0.89;\n\ntotal_used_cream = Object.values(cream).reduce((c, n) => c + n);\ntotal_used_skim_milk = Object.values(skim_milk).reduce((c, n) => c + n);\n\nif ((total_used_cream / YIELD_CREAM * YIELD_SKIM_MILK) > total_used_skim_milk) {\n    total_cream = total_used_cream;\n    total_milk = total_cream / YIELD_CREAM;\n    total_skim_milk = total_milk - total_cream;\n} else {\n    total_skim_milk = total_used_skim_milk;\n    total_milk = total_skim_milk / YIELD_SKIM_MILK;\n    total_cream = total_milk - total_skim_milk;\n}\nnode.send([ null, { payload: total_cream - total_used_cream}, {payload: total_skim_milk - total_used_skim_milk}]);\n \n\nmsg.payload = total_milk;\nmsg.topic = \"zentrifuge\";\nmilk[msg.topic] = msg.payload;\nflow.set('milk', milk);\nreturn msg;",
+        "outputs": 3,
+        "noerr": 0,
+        "x": 780,
+        "y": 400,
+        "wires": [
+            [
+                "5c97683.1358d18"
+            ],
+            [
+                "d949420c.b08cf8"
+            ],
+            [
+                "2321ad2c.b708aa"
+            ]
+        ]
+    },
+    {
+        "id": "73f0b8ff.d772b",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "Rezept Joghurt",
+        "func": "var milk = flow.get('milk') || {};\n\nif(msg.topic == \"yoghurt\") {\n    msg.payload *= 0.5; //500g Gläser\n    milk[msg.topic] = msg.payload;\n} else {\n    return null;\n}\n    \nflow.set('milk', milk);\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 580,
+        "y": 380,
+        "wires": [
+            [
+                "5c97683.1358d18"
+            ]
+        ]
+    },
+    {
+        "id": "5947dc48.479664",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "Rezept Milch",
+        "func": "var milk = flow.get('milk') || {};\nvar skim_milk = flow.get('skim_milk') || {};\n\nif (msg.topic == \"milk\") {\n    milk[msg.topic] = msg.payload;\n} else if (msg.topic == \"low_fat_milk\") {\n    milk[msg.topic] = msg.payload * 0.375;\n    skim_milk[msg.topic] = msg.payload - milk[msg.topic];\n} else {\n    return null;\n}\n\nflow.set('milk', milk);\nflow.set('skim_milk', skim_milk);\nreturn ([msg,msg]);",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 590,
+        "y": 260,
+        "wires": [
+            [
+                "5c97683.1358d18"
+            ],
+            [
+                "aa86089f.6fbae8"
+            ]
+        ]
+    },
+    {
+        "id": "64868e49.b245c",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "Rezepte Sahne",
+        "func": "var cream = flow.get('cream') || {};\n\nif (msg.topic == 'cream') {\n    msg.payload *= 0.25; // 250g VE\n    cream[msg.topic] = msg.payload;\n} else if (msg.topic == 'butter') {\n    msg.payload *= 0.25; // 250g VE\n    msg.payload /= 0.4; // Aufwand Butterherstellung\n    cream[msg.topic] = msg.payload;\n} else {\n    return null;\n}\n\nflow.set('cream', cream);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 580,
+        "y": 480,
+        "wires": [
+            [
+                "aa86089f.6fbae8"
+            ]
+        ]
+    },
+    {
+        "id": "2321ad2c.b708aa",
+        "type": "ui_text",
+        "z": "60002445.e350fc",
+        "group": "ab0c00b0.85e2b8",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Magermilch",
+        "label": "Ungenutzte Magermilch in l",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "d949420c.b08cf8",
+        "type": "ui_text",
+        "z": "60002445.e350fc",
+        "group": "ab0c00b0.85e2b8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Sahne",
+        "label": "Ungenutzte Sahne in l",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 990,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "bf3014aa.8018c",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "wrap and summerize",
+        "func": "var orders = flow.get('orders') || {};\n\nmsg.orders = orders;\nmsg.topic = msg.payload;\nmsg.payload = Object.values(orders[msg.payload]).reduce((a, b) => a + b);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 300,
+        "y": 360,
+        "wires": [
+            [
+                "5947dc48.479664",
+                "73f0b8ff.d772b",
+                "64868e49.b245c",
+                "2ae0963c.2c80da"
+            ]
+        ]
+    },
+    {
+        "id": "2ae0963c.2c80da",
+        "type": "function",
+        "z": "60002445.e350fc",
+        "name": "Rezept Quark",
+        "func": "var skim_milk = flow.get('skim_milk') || {};\n\nif(msg.topic == \"quark\") {\n    msg.payload *= 0.5; // 500g VE\n    msg.payload /= 0.2; // 20% Ausbeute\n    skim_milk[msg.topic] = msg.payload;\n} else {\n    return null;\n}\n\nflow.set('skim_milk', skim_milk);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 580,
+        "y": 560,
+        "wires": [
+            [
+                "aa86089f.6fbae8"
+            ]
+        ]
+    }
+]
